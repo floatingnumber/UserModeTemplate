@@ -18,6 +18,7 @@
 //! Macros
 #define UPTR(x) ((ULONG_PTR)x)
 #define CPTR(x) ((PVOID)x)
+#define FUNC(x) __typeof__(x) * x
 
 //! Function Table
 typedef struct
